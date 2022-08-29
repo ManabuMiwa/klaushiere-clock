@@ -1,6 +1,6 @@
 import { KlaushiereTime, Periods } from './klaushiere-time'
 
-describe('Klaushiere Time', () => {
+describe('KlaushiereTime class', () => {
   it('should show each periods', () => {
     const time = new Date()
     let subject: KlaushiereTime
