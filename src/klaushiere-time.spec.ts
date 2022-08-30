@@ -1,28 +1,28 @@
 import { KlaushiereTime, Periods } from './klaushiere-time'
 
 describe('KlaushiereTime class', () => {
-  it('should show each periods', () => {
+  it('should show each periods correctly', () => {
     const time = new Date()
     let subject: KlaushiereTime
 
     type TestTableColumn = {
       hours: number
-      period: Periods
+      expected: Periods
     }
 
     const testTable: TestTableColumn[] = [
-      { hours: 0, period: 'pre' },
-      { hours: 9, period: 'pre' },
-      { hours: 10, period: 'rep' },
-      { hours: 19, period: 'rep' },
-      { hours: 20, period: 'dapre' },
-      { hours: 23, period: 'dapre' },
+      { hours: 0, expected: 'pre' },
+      { hours: 9, expected: 'pre' },
+      { hours: 10, expected: 'rep' },
+      { hours: 19, expected: 'rep' },
+      { hours: 20, expected: 'dapre' },
+      { hours: 23, expected: 'dapre' },
     ]
 
     testTable.forEach(c => {
       time.setHours(c.hours)
       subject = new KlaushiereTime(time)
-      expect(subject.period).toBe(c.period)  
+      expect(subject.period).toBe(c.expected)  
     })
   })
 
