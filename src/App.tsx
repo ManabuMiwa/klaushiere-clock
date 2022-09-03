@@ -15,9 +15,9 @@ function App() {
   })
 
   return (
-    <div className="app">
-      <main className="app--time">{ time.toString() }</main>
-    </div>
+    <main className="app">
+      <section className="app--time">{ time.toString() }</section>
+    </main>
   );
 }
 
