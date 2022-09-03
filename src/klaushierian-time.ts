@@ -1,7 +1,7 @@
 export type Periods = 'pre' | 'rep' | 'dapre'
 
 /** Class replesents time system used in Klaushiere */
-export class KlaushiereTime {
+export class KlaushierianTime {
   private _time: Date
 
   /**

@@ -1,9 +1,9 @@
-import { KlaushiereTime, Periods } from './klaushiere-time'
+import { KlaushierianTime, Periods } from './klaushierian-time'
 
-describe('KlaushiereTime class', () => {
+describe('KlaushierianTime class', () => {
   it('should show each periods correctly', () => {
     const time = new Date()
-    let subject: KlaushiereTime
+    let subject: KlaushierianTime
 
     type TestTableColumn = {
       hours: number
@@ -21,14 +21,14 @@ describe('KlaushiereTime class', () => {
 
     testTable.forEach(c => {
       time.setHours(c.hours)
-      subject = new KlaushiereTime(time)
+      subject = new KlaushierianTime(time)
       expect(subject.period).toBe(c.expected)  
     })
   })
 
   it('should show correct minutes', () => {
     const time = new Date()
-    let subject: KlaushiereTime
+    let subject: KlaushierianTime
 
     type TestTableColumn = {
       hours: number
@@ -49,7 +49,7 @@ describe('KlaushiereTime class', () => {
 
     testTable.forEach(c => {
       time.setHours(c.hours, c.minutes, c.seconds)
-      subject = new KlaushiereTime(time)
+      subject = new KlaushierianTime(time)
       expect(subject.minutes).toBe(c.expected)  
     })
   })

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { KlaushiereTime } from './klaushiere-time';
+import { KlaushierianTime } from './klaushierian-time';
 
 function App() {
-  const [time, setTime] = useState(new KlaushiereTime())
+  const [time, setTime] = useState(new KlaushierianTime())
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setTime(new KlaushiereTime())
+      setTime(new KlaushierianTime())
     }, 1000)
     return () => {
       clearInterval(interval)
