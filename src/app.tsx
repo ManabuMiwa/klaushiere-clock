@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import './app.css';
-import { KlaushierianTime } from './klaushierian-time';
+import React, { useState, useEffect } from 'react'
+import './app.css'
+import { KlaushierianTime } from './klaushierian-time'
 
 function App() {
   const [time, setTime] = useState(new KlaushierianTime())
@@ -18,7 +18,7 @@ function App() {
     <main className="app">
       <section className="app--time">{ time.toString() }</section>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
