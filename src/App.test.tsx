@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './app';
 
 it('renders current time in Klaushierian system', () => {
   render(<App />);
