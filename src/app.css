@@ -3,7 +3,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  block-size: 100vh;
   background-color: #2a3f31;
   overflow: hidden;
 }
@@ -19,8 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 90%;
+  inline-size: 90%;
+  block-size: 90%;
 }
 
 .app--sun-wheel, .app--moon-wheel, .app--star-wheel {
@@ -44,6 +44,6 @@
 
 .app--time {
   font-size: 64px;
-  width: 250px;
+  inline-size: 250px;
   margin: 10px;
 }
