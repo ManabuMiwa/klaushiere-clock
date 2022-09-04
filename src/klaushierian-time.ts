@@ -11,14 +11,18 @@ export class KlaushierianTime {
     this._time = time ?? new Date()
   }
 
-  get minutes(): number {
+  private get _klaushierianTime(): number {
     const h = this._time.getHours()
     const m = this._time.getMinutes()
     const s = this._time.getSeconds()
     const ms = this._time.getMilliseconds()
 
     const timeInMs = h * 3600000 + m * 60000 + s * 1000 + ms
-    return Math.floor(timeInMs / 36000) % 1000
+    return timeInMs / 36000 % 1000
+  }
+
+  get minutes(): number {
+    return Math.floor(this._klaushierianTime)
   }
 
   get period(): Periods {
@@ -30,17 +34,17 @@ export class KlaushierianTime {
 
   get outerAngle(): number {
     return this.period !== 'dapre'
-      ? 360 - this.minutes / (1000 / 360)
+      ? 360 - this._klaushierianTime / (1000 / 360)
       : 0
   }
 
   get middleAngle(): number {
-    return this.minutes / (100 / 360) % 360
+    return this._klaushierianTime / (100 / 360) % 360
   }
 
   get innerAngle(): number {
     return this.period === 'dapre'
-      ? 360 - this.minutes / (400 / 360)
+      ? 360 - this._klaushierianTime / (400 / 360)
       : 0
   }
 
