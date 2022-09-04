@@ -6,9 +6,17 @@
             <g id="Middle-Circle" serifId="Middle Circle" transform="matrix(0.97324,0,0,0.97324,-33.3725,-59.7274)">
                 <circle cx="560.368" cy="587.448" r="342.156" style="fill:rgb(229,208,160);stroke:black;stroke-width:4.28px;"/>
             </g>
+            <g id="Middle-Circle1" serifId="Middle Circle" transform="matrix(0.97324,0,0,0.97324,-33.3725,-59.7274)">
+                <clipPath id="_clip1">
+                    <path d="M560.508,587.016L740.419,33.306L380.457,33.738L560.368,587.448"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <circle cx="560.368" cy="587.448" r="342.156" style="fill:rgb(74,61,54);stroke:black;stroke-width:4.28px;"/>
+                </g>
+            </g>
             <g id="Middle-Digits" serifId="Middle Digits">
                 <g transform="matrix(1,0,0,1,-37.1231,215.313)">
-                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">0</text>
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;fill:rgb(229,208,160);">0</text>
                 </g>
                 <g transform="matrix(0.809017,-0.587785,0.587785,0.809017,-106.638,594.742)">
                     <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">1</text>
