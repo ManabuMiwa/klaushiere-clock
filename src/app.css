@@ -45,5 +45,6 @@
 .app--time {
   font-size: 48px;
   inline-size: 250px;
+  text-align: center;
   margin: 10px;
 }
