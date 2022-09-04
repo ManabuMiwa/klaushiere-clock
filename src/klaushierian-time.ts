@@ -28,6 +28,22 @@ export class KlaushierianTime {
     return 'dapre'
   }
 
+  get outerAngle(): number {
+    return this.period !== 'dapre'
+      ? 360 - this.minutes / (1000 / 360)
+      : 0
+  }
+
+  get middleAngle(): number {
+    return this.minutes / (100 / 360) % 360
+  }
+
+  get innerAngle(): number {
+    return this.period === 'dapre'
+      ? 360 - this.minutes / (400 / 360)
+      : 0
+  }
+
   /** Returns a string representation of a instance */
   toString() {
     return `${this.minutes} ${this.period}`

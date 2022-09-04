@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1005 1005" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-9.91667,-9.91667)">
+        <g id="Outer">
+            <g id="Outer-Circle" serifId="Outer Circle" transform="matrix(1.46132,0,0,1.46132,-306.878,-346.449)">
+                <circle cx="560.368" cy="587.448" r="342.156" style="fill:rgb(255,245,222);stroke:black;stroke-width:2.85px;"/>
+            </g>
+            <g id="Outer-Digits" serifId="Outer Digits">
+                <g transform="matrix(1,0,0,1,-37.1231,48.6272)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">0</text>
+                </g>
+                <g transform="matrix(0.809017,-0.587785,0.587785,0.809017,-204.614,459.89)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">9</text>
+                </g>
+                <g transform="matrix(0.309017,-0.951057,0.951057,0.309017,-98.3821,891.057)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">8</text>
+                </g>
+                <g transform="matrix(-0.309017,-0.951057,0.951057,-0.309017,240.995,1177.44)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">7</text>
+                </g>
+                <g transform="matrix(-0.809017,-0.587785,0.587785,-0.809017,683.886,1209.64)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">6</text>
+                </g>
+                <g transform="matrix(-1,0,0,-1,1061.12,975.373)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">5</text>
+                </g>
+                <g transform="matrix(-0.809017,0.587785,-0.587785,-0.809017,1228.61,564.11)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">4</text>
+                </g>
+                <g transform="matrix(-0.309017,0.951057,-0.951057,-0.309017,1122.38,132.943)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">3</text>
+                </g>
+                <g transform="matrix(0.309017,0.951057,-0.951057,0.309017,783.005,-153.437)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">2</text>
+                </g>
+                <g transform="matrix(0.809017,0.587785,-0.587785,0.809017,340.114,-185.643)">
+                    <text x="513.732px" y="86.771px" style="font-family:'ChalkboardSE-Light', 'Chalkboard SE', cursive;font-size:125px;">1</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
