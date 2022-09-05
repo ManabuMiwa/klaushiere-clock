@@ -16,14 +16,11 @@
 
 .app--clock {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   inline-size: 90%;
   block-size: 90%;
 }
 
-.app--sun-wheel, .app--moon-wheel, .app--star-wheel {
+.app--sun-wheel, .app--moon-wheel, .app--star-wheel, .app--marks {
   position: absolute;
 }
 
@@ -33,13 +30,22 @@
 }
 
 .app--moon-wheel {
-  inline-size: 66%;
-  block-size: 66%;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .app--star-wheel {
-  inline-size: 33%;
-  block-size: 33%;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.app--marks {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.app--marks > svg {
+  position: absolute;
 }
 
 .app--time {
