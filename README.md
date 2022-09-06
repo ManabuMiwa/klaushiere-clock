@@ -2,8 +2,10 @@
 
 A virtual representation of the clock used in Klaushiere, a fictional world appears in Takahiko Mukoyama's novel called 童話物語 (Dowa Monogatari, lit. Fairy tale Story).
 
+## Key features
+
 * Wheels move in real-time
-* Unused wheels will dim automatically based on time of the day
+* Inactive wheels will be dimmed automatically based on time of the day
 * Besides of the clock itself, It shows three digits time in Klausherian time system
 * It can be used like native phone app by adding it to the home screen
 
