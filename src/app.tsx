@@ -23,7 +23,7 @@ function App() {
   return (
     <main className="app">
       <section className="app--time">{ time.toString() }</section>
-      <section className="app--clock" data-testid="clock">
+      <section className="app--clock" title='Time Display'>
         <section className="app--sun-wheel">
           <SunWheel time={time} />
         </section>

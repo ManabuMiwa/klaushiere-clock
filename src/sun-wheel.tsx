@@ -11,5 +11,5 @@ export default function SunWheel(props: SunWheelProps) {
     filter: `grayscale(${isNotDapre ? '0%' : '75%'}) brightness(${isNotDapre ? 1 : .5})`,
     transition: 'filter 5s'
   }
-  return <Outer style={style} />
+  return <Outer style={style} title="Sun Wheel" />
 }

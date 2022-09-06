@@ -8,5 +8,5 @@ export default function MoonWheel(props: MoonWheelProps) {
   const style: React.CSSProperties = {
     transform: `rotate(${props.time.middleAngle}deg)`,
   }
-  return <Mid style={style} />
+  return <Mid style={style} title="Moon Wheel" />
 }

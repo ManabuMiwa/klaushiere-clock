@@ -11,5 +11,5 @@ export default function StarWheel(props: StarWheelProps) {
     filter: `grayscale(${isDapre ? '0%' : '75%'}) brightness(${isDapre ? 1 : .5})`,
     transition: 'filter 5s'
   }
-  return <Inner style={style} />
+  return <Inner style={style} title="Star Wheel" />
 }

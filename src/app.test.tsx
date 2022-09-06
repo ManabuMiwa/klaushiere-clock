@@ -11,7 +11,7 @@ describe('App component', () => {
 
   it('renders Klaushierian clock', () => {
     render(<App />)
-    const clock = screen.getByTestId('clock')
+    const clock = screen.getByTitle('Time Display')
     expect(clock).toBeInTheDocument()
   })
 })
