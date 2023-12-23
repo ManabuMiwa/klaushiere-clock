@@ -48,7 +48,7 @@ export class KlaushierianTime {
       : 0
   }
 
-  /** Returns a string representation of a instance */
+  /** Returns a string representation of the instance */
   toString() {
     return `${this.minutes} ${this.period}`
   }
